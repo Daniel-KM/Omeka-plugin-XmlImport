@@ -55,7 +55,7 @@ class XmlImportPlugin extends Omeka_Plugin_AbstractPlugin
     {
         if (!$this->checkCsvImport()) {
             $message = __('Since release 2.16, Xml Import requires CSV Import+, that adds some features.')
-                . ' ' . __('See %sreadme%s.', '<a href="https://github.com/Daniel-KM/CsvImportPlus">', '</a>');
+                . ' ' . __('See %sreadme%s.', '<a href="https://github.com/Daniel-KM/Omeka-plugin-CsvImportPlus">', '</a>');
             throw new Omeka_Plugin_Exception($message);
         }
 
@@ -112,7 +112,7 @@ class XmlImportPlugin extends Omeka_Plugin_AbstractPlugin
         // Full Csv Import.
         if (!$this->checkCsvImport()) {
             $flash->addMessage(__('Since release 2.16, Xml Import requires CSV Import+.')
-                . ' ' . __('See %sreadme%s.', '<a href="https://github.com/Daniel-KM/CsvImportPlus">', '</a>'), 'error');
+                . ' ' . __('See %sreadme%s.', '<a href="https://github.com/Daniel-KM/Omeka-plugin-CsvImportPlus">', '</a>'), 'error');
         }
 
         // Require external processor.
@@ -150,7 +150,7 @@ class XmlImportPlugin extends Omeka_Plugin_AbstractPlugin
     /**
      * Defines the plugin's access control list.
      *
-     * @param object $args
+     * @param array $args
      */
     public function hookDefineAcl($args)
     {

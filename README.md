@@ -253,8 +253,8 @@ Warning
 
 Use it at your own risk.
 
-It's always recommended to backup your files and database regularly so you can
-roll back if needed.
+It’s always recommended to backup your files and your databases and to check
+your archives regularly so you can roll back if needed.
 
 
 Troubleshooting
@@ -290,15 +290,15 @@ Copyright
 * Copyright Daniel Berthereau, 2012-2016
 
 
-[XML Import]: https://github.com/Daniel-KM/XmlImport
+[XML Import]: https://github.com/Daniel-KM/Omeka-plugin-XmlImport
 [Omeka]: https://omeka.org
-[CSV Import+]: https://github.com/Daniel-KM/CsvImportPlus
+[CSV Import+]: https://github.com/Daniel-KM/Omeka-plugin-CsvImportPlus
 [CSV Import]: https://github.com/omeka/plugin-CsvImport
-[Archive Folder]: https://github.com/Daniel-KM/ArchiveFolder
+[Archive Folder]: https://github.com/Daniel-KM/Omeka-plugin-ArchiveFolder
 [Geolocation]: https://omeka.org/add-ons/plugins/geolocation
 [Mag]: http://www.iccu.sbn.it/opencms/opencms/it/main/standard/metadati/pagina_267.html
 [Mets]: https://www.loc.gov/standards/mets
-[plugin issues]: https://github.com/Daniel-KM/XmlImport/issues
+[plugin issues]: https://github.com/Daniel-KM/Omeka-plugin-XmlImport/issues
 [Apache licence v2]: https://www.apache.org/licenses/LICENSE-2.0.html
 [Daniel-KM]: https://github.com/Daniel-KM "Daniel Berthereau"
 [Ethan Gruber]: mailto:ewg4x@virginia.edu
